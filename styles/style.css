@@ -10,6 +10,10 @@
   color: #000000;
 }
 
+.btnlight::after {
+  content: "Day";
+}
+
 .h1day {
   background-color: none;
   color: #EA202C;
@@ -33,6 +37,7 @@
 .btndark {
   background-color: #260725;
   color: #ffffff;
+  content: "Night";
 }
 
 .h1night {

@@ -9,7 +9,9 @@ $dkViolet: #260725;
 
 .btndark{
     @include changes($dkViolet, #ffffff);
-    content: "Night";
+    &::after{
+        content: "Night";
+    }
   }
 
 .h1night{
