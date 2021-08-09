@@ -34,6 +34,14 @@
   color: #ffffff;
 }
 
+.footernight {
+  color: #ffffff;
+}
+
+.contnight {
+  background-color: #421195;
+}
+
 .btndark {
   background-color: #260725;
   color: #ffffff;
@@ -60,7 +68,7 @@
 
 .thirdnight {
   background-color: #730570;
-  color: #6E82E5;
+  color: #ffffff;
 }
 
 #container {

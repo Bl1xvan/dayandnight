@@ -6,6 +6,12 @@ $dkPurple: #421195;
 $brViolet: #730570;
 $dkViolet: #260725;
 
+.footernight{
+    color: #ffffff;
+}
+.contnight{
+    background-color: $dkPurple;
+}
 
 .btndark{
     @include changes($dkViolet, #ffffff);
@@ -27,5 +33,5 @@ $dkViolet: #260725;
 }
 
 .thirdnight{
-    @include changes($brViolet, $brBlue);
+    @include changes($brViolet, #ffffff);
 }

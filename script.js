@@ -4,11 +4,14 @@ const h1change = document.getElementById("h1change");
 const ipsum = Array.from(document.querySelectorAll(".ipsum"));
 const middle = document.getElementById("middle");
 const thirdp = Array.from(document.querySelectorAll(".thirdp"));
+const footer = document.getElementById("footer");
 
 dayNight.addEventListener("click", changeClass);
 
 //Just need the class elements to be toggled
 function changeClass(){
+    footer.classList.toggle("footernight");
+    document.body.classList.toggle("contnight");
     dayNight.classList.toggle("btndark");
     h1change.classList.toggle("h1night");
     middle.classList.toggle("middlenight");
