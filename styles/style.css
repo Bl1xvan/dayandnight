@@ -37,6 +37,9 @@
 .btndark {
   background-color: #260725;
   color: #ffffff;
+}
+
+.btndark::after {
   content: "Night";
 }
 

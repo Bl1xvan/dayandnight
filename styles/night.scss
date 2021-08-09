@@ -23,7 +23,7 @@ $dkViolet: #260725;
 }
 
 .middlenight{
-    @include changes($dkBlue, $brBlue);
+    @include changes($brBlue, $dkViolet);
 }
 
 .thirdnight{

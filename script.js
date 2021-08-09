@@ -11,6 +11,7 @@ dayNight.addEventListener("click", changeClass);
 function changeClass(){
     dayNight.classList.toggle("btndark");
     h1change.classList.toggle("h1night");
+    middle.classList.toggle("middlenight");
     for(let i in ipsum){
         ipsum[i].classList.toggle("ipsumnight");
     }
