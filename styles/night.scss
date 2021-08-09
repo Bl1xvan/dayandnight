@@ -1,0 +1,29 @@
+@import "changeFx";
+
+$brBlue: #6E82E5;
+$dkBlue: #0C29B8;
+$dkPurple: #421195;
+$brViolet: #730570;
+$dkViolet: #260725;
+
+
+.btndark{
+    @include changes($dkViolet, #ffffff);
+    content: "Night";
+  }
+
+.h1night{
+    @include changes(none, $brBlue);
+}
+
+.ipsumnight{
+    @include changes(none, $brBlue);
+}
+
+.middlenight{
+    @include changes($dkBlue, $brBlue);
+}
+
+.thirdnight{
+    @include changes($brViolet, $brBlue);
+}

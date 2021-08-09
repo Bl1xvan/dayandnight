@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+//create and import a page with the dark colors
+@import "day";
+@import "night";
+@import "changeFx";
+
+
+@mixin miniSection ($width, $align){
+    width: $width;
+    text-align: $align;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#container{
+    width: 70%;
+    margin: auto;
+
+    .section{
+        width: 100%;
+        display: inline-block;
+
+        h2{
+            text-align: center;
+        }
+    }
+
+    #daynight{
+        float: right;
+        padding: 10px 0 10px 0;
+        margin: 20px;
+        width: 100px;
+        font-weight: bold;
+        border: none;
+    }
+    
+}
+
+#big-box{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    *{
+        display: inline-block;
+    }
+
+    header{
+        border-bottom: $greenish solid 4px;
+        margin-bottom: 20px;
+
+        h1{
+            font-size:xx-large;
+        }
+    }
+
+    header, #footer{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+.ipsum{
+    padding: 0 50px 0 50px;
+    @include miniSection (50%, justify);
+
+    &:nth-child(2){
+    border-right: dashed black 1px;
+    }
+ 
+}
+
+#middle{
+    padding: 5px 0 5px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 10px auto 10px;
+}
+
+.third{
+    margin-top: 20px;
+    @include miniSection(33.3%, center);
+
+    p{
+        width: 90%;
+        margin: auto;
+        padding: 20px 0 20px 0;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .ipsum, .ipsum *, .third, .third *{
+        width: 100%;
+        margin: 5px 0 5px 0;
+    }
+
+    #container {
+        width: 80%;
+
+        #daynight{
+            float: none;
+            display: block;
+            width: 100%;
+            margin: 10px auto 10px auto ;
+        }
+    }
+
+}

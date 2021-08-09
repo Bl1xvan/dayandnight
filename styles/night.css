@@ -1,0 +1,26 @@
+.btndark {
+  background-color: #260725;
+  color: #ffffff;
+  content: "Night";
+}
+
+.h1night {
+  background-color: none;
+  color: #6E82E5;
+}
+
+.ipsumnight {
+  background-color: none;
+  color: #6E82E5;
+}
+
+.middlenight {
+  background-color: #0C29B8;
+  color: #6E82E5;
+}
+
+.thirdnight {
+  background-color: #730570;
+  color: #6E82E5;
+}
+/*# sourceMappingURL=night.css.map */

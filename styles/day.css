@@ -1,0 +1,29 @@
+.btnlight {
+  background-color: #ffb561;
+  color: #000000;
+}
+
+.btnlight::after {
+  content: "Day";
+}
+
+.h1day {
+  background-color: none;
+  color: #EA202C;
+}
+
+.ipsumday {
+  background-color: none;
+  color: #fda1b8;
+}
+
+.middleday {
+  background-color: #525252;
+  color: #EA202C;
+}
+
+.thirdday {
+  background-color: #448D76;
+  color: none;
+}
+/*# sourceMappingURL=day.css.map */

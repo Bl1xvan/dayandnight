@@ -1,0 +1,32 @@
+@import "changeFx";
+
+$reddish: #EA202C;
+$orangish: #ffb561;
+$greenish: #448D76;
+$grayish: rgb(82, 82, 82);
+$pinkish: #fda1b8;
+
+.btnlight{
+    @include changes($orangish, #000000);
+    
+    &::after{
+        content: "Day";
+    }
+
+}
+
+.h1day{
+    @include changes(none, $reddish);
+}
+
+.ipsumday{
+    @include changes(none, $pinkish);
+}
+
+.middleday{
+    @include changes($grayish, $reddish);
+}
+
+.thirdday{
+    @include changes($greenish, none);
+}
