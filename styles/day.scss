@@ -28,5 +28,5 @@ $pinkish: #fda1b8;
 }
 
 .thirdday{
-    @include changes($greenish, none);
+    @include changes($greenish, #ffffff);
 }
