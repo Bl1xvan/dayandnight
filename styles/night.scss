@@ -9,6 +9,7 @@ $dkViolet: #260725;
 .footernight{
     color: #ffffff;
 }
+
 .contnight{
     background-color: $dkPurple;
 }
@@ -29,7 +30,7 @@ $dkViolet: #260725;
 }
 
 .middlenight{
-    @include changes($brBlue, $dkViolet);
+    @include changes($dkViolet, #ffffff);
 }
 
 .thirdnight{

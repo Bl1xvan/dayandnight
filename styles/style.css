@@ -62,8 +62,8 @@
 }
 
 .middlenight {
-  background-color: #6E82E5;
-  color: #260725;
+  background-color: #260725;
+  color: #ffffff;
 }
 
 .thirdnight {
@@ -153,9 +153,15 @@
 }
 
 @media screen and (max-width: 800px) {
+  *, *::before, *::after {
+    font-size: small;
+  }
   .ipsum, .ipsum *, .third, .third * {
     width: 100%;
     margin: 5px 0 5px 0;
+  }
+  .ipsum:nth-child(2) {
+    border-right: none;
   }
   #container {
     width: 80%;

@@ -95,9 +95,16 @@
 }
 
 @media screen and (max-width: 800px){
+    *, *::before, *::after{
+        font-size: small;
+    }
     .ipsum, .ipsum *, .third, .third *{
         width: 100%;
         margin: 5px 0 5px 0;
+    }
+
+    .ipsum:nth-child(2){
+        border-right: none;
     }
 
     #container {
